@@ -1,8 +1,9 @@
-html, body, .section, .container-fluid {
+html, body, .section, .container-fluid, .container {
 	height: 100%;
+	width: 100%;
 }
 body {
-	background-image: url(../images/image.jpg);
+	background-image: url(../images/new.jpg);
 	background-size: cover;
 	background-repeat:no-repeat;
 	background-position: center;
@@ -12,6 +13,10 @@ body {
 	background: rgba(0,0,0,0.5);
 	border: none;
 	border-radius: 0;
+	position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .section {
 	display: table;
@@ -37,14 +42,21 @@ p {
 h2 {
 	color: white;
 	font-size: 22px;
+	text-align: center;
+}
+h3 {
+	font-size: 15px;
+}
+.soc_buttons .green-square {
+	display: inline-block;
+  width: 35px;
+  height: 35px;
+  border: 2px solid seagreen;
+  margin: 0 5px;
 }
 .soc_buttons a {
+	font-size: 20px;
 	color: white;
-  border: 2px solid seagreen;
-  font-size: 20px;
-  padding: 10px;
-  margin-left: 8px;
-  margin-top: 2.5em;
 }
 .button {
 	margin-top: 2.5em;
@@ -52,4 +64,27 @@ h2 {
 	background-color: seagreen;
 	color: white;
 	padding: 8px;
+}
+.layout { 
+  overflow: hidden; 
+  position: absolute;
+}
+.col-md-4 {
+	margin-bottom: 30px;
+}   
+.col-md-4:hover {
+	background: rgba(0,0,0,0.2);
+} 
+.layout div div {
+  margin: 1px; 
+  padding: 10px; 
+  height: auto; 
+  background: rgba(0,0,0,0.5);
+  color: #f5e8d0;
+  overflow: auto;
+}
+.fa-file-o, .fa-apple, .fa-html5, .fa-bullhorn, .fa-book, .fa-envelope, .fa-code, .fa-briefcase, .fa-gamepad {
+	color: seagreen;
+	font-size: 30px;
+	padding-left: 10px;
 }
