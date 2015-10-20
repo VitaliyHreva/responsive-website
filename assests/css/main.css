@@ -53,7 +53,7 @@ body {
 	text-align: center;
 	font-family: "ArimoRegular";
 }
-.our-services, .pricing {
+.options {
 	font-size: 19px;
 	color: white;
 	font-family: 'Oswald', sans-serif;
@@ -73,7 +73,6 @@ body {
 	display: inline-block;
   width: 35px;
   height: 35px;
-  border: 2px solid seagreen;
   margin: 0 5px;
 }
 .soc_buttons .green-square i {
@@ -89,9 +88,11 @@ body {
 .fa-vk, .fa-facebook, .fa-twitter, .fa-google-plus {
 	font-size: small;
 }
-.button {
+.green-border-2px {
+  border: 2px solid seagreen;
+}
+.button, .btn-our-works {
 	margin-top: 2.5em;
-	border: 2px solid seagreen;
 	background-color: seagreen;
 	color: white;
 	padding: 6px 12px;
@@ -100,7 +101,10 @@ body {
 	line-height: 1.428571429;
 	white-space: nowrap;
 	box-shadow: none;
-
+}
+.btn-our-works:focus {
+	background: none;
+	outline: none;
 }
 .button:hover {
 	background: none;
@@ -198,11 +202,9 @@ body {
   white-space: nowrap;
   vertical-align: middle;
   cursor: pointer;
-  border: 1px solid transparent;
   border-radius: 0;
   color: white;
 	background: none;
-	border: 1px solid seagreen;
 	box-shadow: none;
 }
 .btn.focus, .btn:focus, .btn:hover {
@@ -226,6 +228,7 @@ body {
   padding: 12px 16px;
   background: rgba(0,0,0,0.6);
   color: seagreen;
+  border-radius: 0;
 }
 .head h2 {
 	color: seagreen;
@@ -268,4 +271,17 @@ h5 {
   transform: scale(1.04);
   z-index: 1; 
   border-bottom: 0 none;
+}
+.columns-image {
+	border: 1px solid seagreen;
+	border-radius: 2
+}
+.img-columns{
+	border-radius: 8px;
+	padding: 5px;
+}
+.lorem {
+	text-align: center;
+	font-size: 18px;
+	padding-top: 10px;
 }
