@@ -329,7 +329,6 @@ h5 {
 .team:hover {
 	box-shadow: rgba(0, 0, 0, 0.5); 
   transform: scale(1.06);
-  z-index: 1; 
   border: 1px solid white;
   border-radius: 12px 12px 0 0;
 }
