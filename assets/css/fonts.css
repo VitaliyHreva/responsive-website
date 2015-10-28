@@ -1,0 +1,30 @@
+/* font-family: "EtelkaMediumProRegular"; */
+@font-face {
+    font-family: "EtelkaMediumProRegular";
+    src: url("../fonts/EtelkaMediumProRegular/EtelkaMediumProRegular.eot");
+    src: url("../fonts/EtelkaMediumProRegular/EtelkaMediumProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/EtelkaMediumProRegular/EtelkaMediumProRegular.woff") format("woff"),
+    url("../fonts/EtelkaMediumProRegular/EtelkaMediumProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "ArimoRegular"; */
+@font-face {
+    font-family: "ArimoRegular";
+    src: url("../fonts/ArimoRegular/ArimoRegular.eot");
+    src: url("../fonts/ArimoRegular/ArimoRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArimoRegular/ArimoRegular.woff") format("woff"),
+    url("../fonts/ArimoRegular/ArimoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RobotoRegular"; */
+@font-face {
+    font-family: "RobotoRegular";
+    src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+    src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+    url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
